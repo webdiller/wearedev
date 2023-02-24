@@ -66,4 +66,4 @@ const OurClients = () => {
   );
 };
 
-export default OurClients;
+export {OurClients};

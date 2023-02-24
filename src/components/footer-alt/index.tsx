@@ -100,4 +100,4 @@ const FooterAlt = () => {
   );
 };
 
-export default FooterAlt;
+export {FooterAlt};

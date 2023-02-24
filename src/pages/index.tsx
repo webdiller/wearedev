@@ -7,12 +7,11 @@ import { About } from "@/components/about";
 import { Pricing } from "@/components/pricing";
 import { PriceProcess } from "@/components/price-process";
 import { Testimonials } from "@/components/testimonials";
-import { Footer } from "@/components/footer";
 import { BlogArea } from "@/components/blog-area";
 import { CounterArea } from "@/components/counter-area";
-import FooterAlt from "@/components/footer-alt";
-import OurClients from "@/components/our-clients";
-import OurProjects from "@/components/our-projects";
+import { OurProjects } from "@/components/our-projects";
+import { OurClients } from "@/components/our-clients";
+import { FooterAlt } from "@/components/footer-alt";
 
 export default function Home() {
   return (

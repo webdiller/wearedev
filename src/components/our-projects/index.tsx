@@ -602,4 +602,4 @@ const OurProjects = () => {
   );
 };
 
-export default OurProjects;
+export {OurProjects};
