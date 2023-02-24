@@ -10,6 +10,9 @@ import { Testimonials } from "@/components/testimonials";
 import { Footer } from "@/components/footer";
 import { BlogArea } from "@/components/blog-area";
 import { CounterArea } from "@/components/counter-area";
+import FooterAlt from "@/components/footer-alt";
+import OurClients from "@/components/our-clients";
+import OurProjects from "@/components/our-projects";
 
 export default function Home() {
   return (
@@ -30,7 +33,9 @@ export default function Home() {
       <WorkProcess />
       <CounterArea />
       <BlogArea />
-      <Footer />
+      <OurProjects />
+      <OurClients />
+      <FooterAlt />
     </>
   );
 }

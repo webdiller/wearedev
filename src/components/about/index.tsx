@@ -1,3 +1,5 @@
+import { Autoplay } from "swiper";
+import { Swiper, SwiperSlide } from "swiper/react";
 const About = () => {
   return (
     <div className="about-area bg-gradient-gray pd-top-120">
@@ -65,25 +67,49 @@ const About = () => {
           </div>
         </div>
         <div className="bg-base client-border-radius p-xl-5 p-3 mt-5">
-          <div className="client-slider owl-carousel">
-            <div className="thumb">
-              <img src="img/client/1.svg" alt="img" />
-            </div>
-            <div className="thumb">
-              <img src="img/client/2.svg" alt="img" />
-            </div>
-            <div className="thumb">
-              <img src="img/client/3.svg" alt="img" />
-            </div>
-            <div className="thumb">
-              <img src="img/client/4.svg" alt="img" />
-            </div>
-            <div className="thumb">
-              <img src="img/client/5.svg" alt="img" />
-            </div>
-            <div className="thumb">
-              <img src="img/client/6.svg" alt="img" />
-            </div>
+          <div className="client-slide">
+            <Swiper
+              modules={[Autoplay]}
+              speed={1000}
+              autoplay={{
+                delay: 2000
+              }}
+              spaceBetween={50}
+              slidesPerView={3}
+              onSlideChange={() => console.log("slide change")}
+              onSwiper={(swiper) => console.log(swiper)}
+            >
+              <SwiperSlide>
+                <div className="thumb">
+                  <img src="img/client/1.svg" alt="img" />
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className="thumb">
+                  <img src="img/client/2.svg" alt="img" />
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className="thumb">
+                  <img src="img/client/3.svg" alt="img" />
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className="thumb">
+                  <img src="img/client/4.svg" alt="img" />
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className="thumb">
+                  <img src="img/client/5.svg" alt="img" />
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className="thumb">
+                  <img src="img/client/6.svg" alt="img" />
+                </div>
+              </SwiperSlide>
+            </Swiper>
           </div>
         </div>
       </div>

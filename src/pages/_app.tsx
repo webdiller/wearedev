@@ -1,3 +1,5 @@
+import 'swiper/css';
+import 'swiper/css/autoplay';
 import '@/styles/index.scss'
 import type { AppProps } from 'next/app'
 
