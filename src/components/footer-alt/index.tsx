@@ -53,7 +53,7 @@ const FooterAlt = () => {
                 </li>
                 <li>
                   <a href="service.html">
-                    <i className="fas fa-chevron-right"></i> Pc Repairs{" "}
+                    <i className="fas fa-chevron-right"></i> Pc Repairs
                   </a>
                 </li>
                 <li>

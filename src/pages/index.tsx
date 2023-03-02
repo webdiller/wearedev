@@ -1,19 +1,19 @@
 import Head from "next/head";
-import { Hero } from "@/components/hero";
 import { WorkProcess } from "@/components/work-process";
 import { Navbrar } from "@/components/navbar";
 import { Services } from "@/components/services";
 import { About } from "@/components/about";
 import { Pricing } from "@/components/pricing";
 import { PriceProcess } from "@/components/price-process";
-import { Testimonials } from "@/components/testimonials";
 import { BlogArea } from "@/components/blog-area";
 import { CounterArea } from "@/components/counter-area";
 import { OurProjects } from "@/components/our-projects";
 import { OurClients } from "@/components/our-clients";
 import { FooterAlt } from "@/components/footer-alt";
+import { Testimonials2 } from "@/components/testimonial2";
+import { Hero2 } from "@/components/hero-2";
 
-export default function Home() {
+export default function HomePage() {
   return (
     <>
       <Head>
@@ -23,12 +23,12 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbrar />
-      <Hero />
+      <Hero2 />
       <Services />
       <About />
       <Pricing />
       <PriceProcess />
-      <Testimonials />
+      <Testimonials2 />
       <WorkProcess />
       <CounterArea />
       <BlogArea />

@@ -1,11 +1,9 @@
 import Head from "next/head";
 import { Navbrar } from "@/components/navbar";
 import { FooterAlt } from "@/components/footer-alt";
-import { PageTitle } from "@/components/page-title";
-import { ServiceArea } from "@/components/service-area";
-import { Pricing } from "@/components/pricing";
+import { AboutUs } from "@/components/about-us";
 
-export default function ServicesPage() {
+export default function AboutUsPage() {
   return (
     <>
       <Head>
@@ -15,9 +13,7 @@ export default function ServicesPage() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbrar />
-      <PageTitle />
-      <ServiceArea />
-      <Pricing />
+      <AboutUs />
       <FooterAlt />
     </>
   );

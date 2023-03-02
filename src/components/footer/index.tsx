@@ -37,7 +37,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <a href="service.html">
-                    <i className="fas fa-chevron-right"></i> Digital marketing{" "}
+                    <i className="fas fa-chevron-right"></i> Digital marketing
                   </a>
                 </li>
                 <li>
@@ -74,7 +74,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <a href="service.html">
-                    <i className="fas fa-chevron-right"></i> Finance Sector{" "}
+                    <i className="fas fa-chevron-right"></i> Finance Sector
                   </a>
                 </li>
                 <li>

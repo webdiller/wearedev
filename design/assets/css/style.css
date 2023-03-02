@@ -3602,10 +3602,6 @@ ul {
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
-.single-counter-inner:hover .thumb img {
-  -webkit-transform: rotateY(180deg);
-          transform: rotateY(180deg);
-}
 .single-counter-inner.style-2 {
   border: 1px solid rgba(255, 255, 255, 0.1);
   padding: 30px;

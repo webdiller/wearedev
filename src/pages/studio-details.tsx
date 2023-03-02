@@ -2,10 +2,9 @@ import Head from "next/head";
 import { Navbrar } from "@/components/navbar";
 import { FooterAlt } from "@/components/footer-alt";
 import { PageTitle } from "@/components/page-title";
-import { ServiceArea } from "@/components/service-area";
-import { Pricing } from "@/components/pricing";
+import { CaseStudioDetails } from "@/components/case-study-details";
 
-export default function ServicesPage() {
+export default function StudioDetailsPage() {
   return (
     <>
       <Head>
@@ -16,8 +15,7 @@ export default function ServicesPage() {
       </Head>
       <Navbrar />
       <PageTitle />
-      <ServiceArea />
-      <Pricing />
+      <CaseStudioDetails />
       <FooterAlt />
     </>
   );

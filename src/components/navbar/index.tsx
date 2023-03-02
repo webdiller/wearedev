@@ -37,7 +37,7 @@ const Navbrar = () => {
                   <Link href="/services">Services</Link>
                 </li>
                 <li>
-                  <Link href="/single-service">Service Single</Link>
+                  <Link href="/service-details">Service Single</Link>
                 </li>
               </ul>
             </li>
@@ -45,7 +45,7 @@ const Navbrar = () => {
               <a href="#">Pages</a>
               <ul className="sub-menu">
                 <li>
-                  <a href="about.html">About Us</a>
+                  <Link href="/about-us">About Us</Link>
                 </li>
                 <li>
                   <a href="team.html">Team</a>
@@ -54,7 +54,7 @@ const Navbrar = () => {
                   <a href="team-details.html">Team Details</a>
                 </li>
                 <li>
-                  <a href="case-study-details.html">Case Study Details</a>
+                  <Link href="/studio-details">Case Study Details</Link>
                 </li>
               </ul>
             </li>
@@ -62,15 +62,15 @@ const Navbrar = () => {
               <a href="#">Blog</a>
               <ul className="sub-menu">
                 <li>
-                  <a href="blog.html">Blog</a>
+                  <Link href="blog.html">Blog</Link>
                 </li>
                 <li>
-                  <a href="blog-details.html">Blog Details</a>
+                  <Link href="blog-details.html">Blog Details</Link>
                 </li>
               </ul>
             </li>
             <li>
-              <a href="contact.html">Contact Us</a>
+              <Link href="/contacts">Contact Us</Link>
             </li>
           </ul>
         </div>

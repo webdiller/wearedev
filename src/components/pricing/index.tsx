@@ -32,7 +32,7 @@ const Pricing = () => {
                   <i className="fa fa-check"></i>Social Media Management
                 </li>
                 <li className="hide">
-                  <i className="fa fa-check"></i>Video & Animation Production{" "}
+                  <i className="fa fa-check"></i>Video & Animation Production
                 </li>
               </ul>
               <a
@@ -66,7 +66,7 @@ const Pricing = () => {
                   <i className="fa fa-check"></i>Social Media Management
                 </li>
                 <li className="hide">
-                  <i className="fa fa-check"></i>Video & Animation Production{" "}
+                  <i className="fa fa-check"></i>Video & Animation Production
                 </li>
               </ul>
               <a
@@ -100,7 +100,7 @@ const Pricing = () => {
                   <i className="fa fa-check"></i>Social Media Management
                 </li>
                 <li className="hide">
-                  <i className="fa fa-check"></i>Video & Animation Production{" "}
+                  <i className="fa fa-check"></i>Video & Animation Production
                 </li>
               </ul>
               <a

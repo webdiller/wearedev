@@ -10,42 +10,19 @@ const Hero = () => {
           <div className="row">
             <div className="col-lg-6 align-self-center">
               <div className="banner-inner pe-xl-5">
-                <h6
-                  className="subtitle wow animated fadeInLeft"
-                  data-wow-duration="1.5s"
-                  data-wow-delay="0.3s"
-                >
-                  DESIGNING FOR THE FUTURE
-                </h6>
-                <h2
-                  className="title wow animated fadeInLeft"
-                  data-wow-duration="1.5s"
-                  data-wow-delay="0.4s"
-                >
+                <h6 className="subtitle">DESIGNING FOR THE FUTURE</h6>
+                <h2 className="title">
                   Empowering Your <span>Financial</span> Freedom
                 </h2>
-                <p
-                  className="content pe-xl-5 wow animated fadeInLeft"
-                  data-wow-duration="1.5s"
-                  data-wow-delay="0.5s"
-                >
+                <p className="content pe-xl-5">
                   And In Order To Make A Business, Brand Advertising And
                   Marketing Plays An Important Role. Similarly, In Making
                   Cultivation Business Are Necessary.
                 </p>
-                <a
-                  className="btn btn-border-base wow animated fadeInLeft"
-                  data-wow-duration="1.5s"
-                  data-wow-delay="0.6s"
-                  href="about.html"
-                >
+                <a className="btn btn-border-base" href="about.html">
                   Discover More <i className="fa fa-plus"></i>
                 </a>
-                <div
-                  className="d-inline-block align-self-center wow animated fadeInLeft"
-                  data-wow-duration="1.5s"
-                  data-wow-delay="0.7s"
-                >
+                <div className="d-inline-block align-self-center">
                   <a
                     className="video-play-btn-hover"
                     href="https://www.youtube.com/embed/Wimkqo8gDZ0"
@@ -58,9 +35,7 @@ const Hero = () => {
             </div>
             <div className="col-lg-6 col-md-10">
               <div
-                className="banner-thumb-3 wow animated fadeInRight"
-                data-wow-duration="1.5s"
-                data-wow-delay="0.3s"
+                className="banner-thumb-3"
               >
                 <div className="main-img-wrap">
                   <img
