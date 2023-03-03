@@ -1,4 +1,10 @@
-const PageTitle = () => {
+import Link from "next/link";
+
+type PageProps = {
+  title: string;
+};
+
+const PageTitle = ({ title }: PageProps) => {
   return (
     <div
       className="breadcrumb-area bg-cover"
@@ -8,14 +14,14 @@ const PageTitle = () => {
         <div className="breadcrumb-inner">
           <div className="row justify-content-center">
             <div className="col-lg-6">
-              <h2 className="page-title">Service</h2>
+              <h2 className="page-title">{title}</h2>
             </div>
             <div className="col-lg-6 text-lg-end">
               <ul className="page-list">
                 <li>
-                  <a href="index.html">Home</a>
+                  <Link href="/">Главная</Link>
                 </li>
-                <li>Service</li>
+                <li>Сервис</li>
               </ul>
             </div>
           </div>
@@ -25,4 +31,4 @@ const PageTitle = () => {
   );
 };
 
-export {PageTitle};
+export { PageTitle };

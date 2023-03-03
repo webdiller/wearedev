@@ -14,7 +14,7 @@ export default function ContactsPage() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbrar />
-      <PageTitle />
+      <PageTitle title="Связаться с нами" />
       <ContactUsArea />
       <FooterAlt />
     </>

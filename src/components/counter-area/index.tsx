@@ -9,11 +9,12 @@ const CounterArea = () => {
                 <img src="img/icon/27.svg" alt="img" />
               </div>
               <h2 className="text-white mt-3 mb-2">
-                <span className="counter">200</span>+
+                <span className="counter">10</span>+
               </h2>
-              <p className="text-white">Team member</p>
+              <p className="text-white">Разработчиков</p>
             </div>
           </div>
+          {/* TODO: Придумать контент */}
           <div className="col-lg-3 col-md-6">
             <div className="single-counter-inner style-2 text-center">
               <div className="thumb">
@@ -31,9 +32,9 @@ const CounterArea = () => {
                 <img src="img/icon/29.svg" alt="img" />
               </div>
               <h2 className="text-white mt-3 mb-2">
-                <span className="counter">150</span>+
+                <span className="counter">100</span>+
               </h2>
-              <p className="text-white">Complete project</p>
+              <p className="text-white">Выполненных проектов</p>
             </div>
           </div>
           <div className="col-lg-3 col-md-6">
@@ -42,9 +43,9 @@ const CounterArea = () => {
                 <img src="img/icon/30.svg" alt="img" />
               </div>
               <h2 className="text-white mt-3 mb-2">
-                <span className="counter">180</span>+
+                <span className="counter">50</span>+
               </h2>
-              <p className="text-white">Client review</p>
+              <p className="text-white">Отзывов от клиентов</p>
             </div>
           </div>
         </div>

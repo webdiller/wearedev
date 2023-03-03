@@ -5,9 +5,9 @@ const OurProjects = () => {
         <div className="row justify-content-center">
           <div className="col-lg-6">
             <div className="section-title text-center">
-              <h6 className="sub-title">Gallery Here</h6>
+              {/* <h6 className="sub-title">Наши проекты</h6> */}
               <h2 className="title">
-                Latest <span>Project</span> Are Here
+                Наши проекты
               </h2>
             </div>
           </div>
@@ -18,66 +18,11 @@ const OurProjects = () => {
             id="nav-tab"
             role="tablist"
           >
-            <button
-              className="nav-link active"
-              id="nav-tabs1-tab"
-              data-bs-toggle="tab"
-              data-bs-target="#nav-tabs1"
-              type="button"
-              role="tab"
-              aria-controls="nav-tabs1"
-              aria-selected="true"
-            >
-              View All
-            </button>
-            <button
-              className="nav-link"
-              id="nav-tabs2-tab"
-              data-bs-toggle="tab"
-              data-bs-target="#nav-tabs2"
-              type="button"
-              role="tab"
-              aria-controls="nav-tabs2"
-              aria-selected="false"
-            >
-              Softwate
-            </button>
-            <button
-              className="nav-link"
-              id="nav-tabs3-tab"
-              data-bs-toggle="tab"
-              data-bs-target="#nav-tabs3"
-              type="button"
-              role="tab"
-              aria-controls="nav-tabs3"
-              aria-selected="false"
-            >
-              New Project
-            </button>
-            <button
-              className="nav-link"
-              id="nav-tabs4-tab"
-              data-bs-toggle="tab"
-              data-bs-target="#nav-tabs4"
-              type="button"
-              role="tab"
-              aria-controls="nav-tabs4"
-              aria-selected="false"
-            >
-              Digitals
-            </button>
-            <button
-              className="nav-link"
-              id="nav-tabs5-tab"
-              data-bs-toggle="tab"
-              data-bs-target="#nav-tabs5"
-              type="button"
-              role="tab"
-              aria-controls="nav-tabs5"
-              aria-selected="false"
-            >
-              Hardware
-            </button>
+            <button className="nav-link">Интернет магазин</button>
+            <button className="nav-link">Лендинг</button>
+            <button className="nav-link">Корпоративный сайт</button>
+            <button className="nav-link">Блог</button>
+            <button className="nav-link">Лендинг</button>
           </div>
         </nav>
         <div className="tab-content" id="nav-tabContent">

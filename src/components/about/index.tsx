@@ -20,48 +20,38 @@ const About = () => {
             data-wow-delay="0.3s"
           >
             <div className="section-title mb-0">
-              <h6 className="sub-title">ABOUT US</h6>
+              <h6 className="sub-title">О нас</h6>
               <h2 className="title">
-                Advancing <span>Beyond</span> Your Expectations
+                Продвижение <span>за пределы</span> ваших ожиданий
               </h2>
-              <p className="content mb-4">
-                You can access SaaS applications through a web browser or mobile
-                app, as long as you have an internet connection.
+              <p className="content mb-2">
+                Мы - ваша цифровая агентство, которая разрабатывает веб-сайты и
+                веб-приложения, помогая нашим клиентам расти и развиваться в
+                онлайн-мире.
               </p>
-              <div className="row">
-                <div className="col-md-6">
-                  <ul className="single-list-inner style-check style-heading style-check mb-3">
-                    <li>
-                      <i className="fas fa-check-circle"></i> Mistakes To Avoid
-                      to the dum
-                    </li>
-                    <li>
-                      <i className="fas fa-check-circle"></i> Your Startup
-                      industry stan
-                    </li>
-                  </ul>
-                </div>
-                <div className="col-md-6">
-                  <ul className="single-list-inner style-check style-heading style-check mb-3">
-                    <li>
-                      <i className="fas fa-check-circle"></i> Mistakes To Avoid
-                      to the dum
-                    </li>
-                    <li>
-                      <i className="fas fa-check-circle"></i> Your Startup
-                      industry stan
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <p className="content">
-                SaaS providers typically invest heavily in security measures to
-                protect customer data, such as encryption and multi-factor
-                authentication. However, it is important to research and choose
-                a reputable provider and also to ensure that
+              <p className="content mb-2">
+                Наша команда состоит из экспертов в области дизайна, разработки
+                и маркетинга, которые готовы помочь вам создать уникальный
+                веб-сайт, отражающий вашу компанию и ее ценности.
+              </p>
+              <p className="content mb-2">
+                Наш подход к работе базируется на индивидуальном подходе к
+                каждому клиенту. Мы внимательно слушаем ваши потребности и на
+                основе этого разрабатываем стратегию, которая наилучшим образом
+                соответствует вашим целям.
+              </p>
+              <p className="content mb-2">
+                Мы гордимся своей работой и уверены в том, что наш опыт и знания
+                помогут вам достичь успеха в онлайн-мире.
+              </p>
+              <p className="content mb-2">
+                Если вы хотите связаться с нами, нажмите кнопку &quot;Связаться с
+                нами&quot; или отправьте нам сообщение через форму обратной связи на
+                нашем сайте. Мы будем рады помочь вам в любых вопросах,
+                связанных с веб-разработкой.
               </p>
               <a className="btn btn-border-base" href="about.html">
-                Discover More <i className="fa fa-plus"></i>
+                Начать работать с нами
               </a>
             </div>
           </div>
@@ -72,7 +62,7 @@ const About = () => {
               modules={[Autoplay]}
               speed={1000}
               autoplay={{
-                delay: 2000
+                delay: 2000,
               }}
               spaceBetween={50}
               slidesPerView={3}

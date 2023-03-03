@@ -14,7 +14,7 @@ export default function ServiceDetailsPage() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbrar />
-      <PageTitle />
+      <PageTitle title="Услуга"/>
       <ServiceDetails />
       <FooterAlt />
     </>

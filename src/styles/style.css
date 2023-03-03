@@ -1052,7 +1052,7 @@ ul {
   position: absolute;
   left: 0;
   top: 4px;
-  content: "\f054";
+  content: "/";
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
   font-size: 13px;
@@ -1622,6 +1622,11 @@ ul {
 ------------------------------------------------*/
 .section-title {
   margin-bottom: 50px;
+  position: relative;
+}
+.section-title .description {
+  margin-top: 20px;
+  margin-bottom: 0;
   position: relative;
 }
 .section-title .sub-title {
@@ -2723,6 +2728,7 @@ ul {
   bottom: 0;
   height: 100%;
   z-index: 1;
+  object-fit: cover;
 }
 .banner-area-3:after {
   content: "";

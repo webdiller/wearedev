@@ -28,24 +28,24 @@ const Navbrar = () => {
         <div className="collapse navbar-collapse" id="itech_main_menu">
           <ul className="navbar-nav menu-open text-lg-end">
             <li className="menu-item-has-children">
-              <Link href="/">Home</Link>
+              <Link href="/">Главная</Link>
             </li>
             <li className="menu-item-has-children">
-              <a href="#">Service</a>
+              <a href="#">Услуги</a>
               <ul className="sub-menu">
                 <li>
-                  <Link href="/services">Services</Link>
+                  <Link href="/services">Услуги</Link>
                 </li>
                 <li>
-                  <Link href="/service-details">Service Single</Link>
+                  <Link href="/service-details">Страница услуги</Link>
                 </li>
               </ul>
             </li>
             <li className="menu-item-has-children">
-              <a href="#">Pages</a>
+              <a href="#">О нас</a>
               <ul className="sub-menu">
                 <li>
-                  <Link href="/about-us">About Us</Link>
+                  <Link href="/about-us">О нас</Link>
                 </li>
                 <li>
                   <a href="team.html">Team</a>
@@ -70,7 +70,7 @@ const Navbrar = () => {
               </ul>
             </li>
             <li>
-              <Link href="/contacts">Contact Us</Link>
+              <Link href="/contacts">Связаться с нами</Link>
             </li>
           </ul>
         </div>
@@ -79,7 +79,7 @@ const Navbrar = () => {
             <span className="icon">
               <img src="img/icon/1.png" alt="img" />
             </span>
-            <span>Need help?</span>
+            <span>Есть вопросы?</span>
             <h5>(808) 555-0111</h5>
           </a>
         </div>
